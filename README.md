@@ -1,25 +1,24 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/sandro-elsweijer/padme-am-website/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/sandro-elsweijer/padme-am-website/tree/main)
 
-# Website for PADME-AM
+# Website for ADAPTEX
 
-Website and announcements for the PADME-AM project.
+Website and announcements for the ADAPTEX project.
 
 Based on [Pelican](http://blog.getpelican.com/) and a modifed Polar theme by [CodePassenger](http://www.codepassenger.com/).
 
 ## Local Installation
 
-* Clone PADME-AM-website
+* Clone ADAPTEX-website
 
-  ```
-  git clone git@github.com:sandro-elsweijer/padme-am-website.git
+  git@github.com:DLR-AMR/adaptex-website.git
   ```
   or
   ```
-  git clone https://github.com/sandro-elsweijer/padme-am-website.git
+  https://github.com/DLR-AMR/adaptex-website.git
   ```
 * Change to 
   ```
-  padme-am-website/
+  adaptex-website/
   ```
 
 * Install pelican, fabric3 and some other dependencies
@@ -54,20 +53,7 @@ Add new articles to `content`.
 
 ### Metadata
 
-The required meta data for PADME-AM announcements are:
-```
-Title: Release 3.0.0
-Date: 2019-01-01 00:00
-Category: Releases
-Author: xxx
-```
-
-
-
-### Image sizes
-
- * Article image: 870x440 px (doesn't apply for the overview image of the article)
- * Thumbnail large: 100x108
- * Thumbnail small: 67x73
+The required meta data for ADAPTEX announcements are:
+TODO
 
 
