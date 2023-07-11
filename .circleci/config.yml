@@ -103,13 +103,13 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             # The SSH key fingerprint
-            - "b1:15:1d:2d:03:bc:bb:31:b9:a7:34:15:df:aa:6b:81"
+            - "26:26:a6:03:8a:47:4e:92:7d:6b:be:bb:8b:b7:bd:c4"
 
       # Push the `_site` folder to our gh-pages branch for it to go live
       - run:
           name: Push site to gh-pages
           command: |
-            git remote add pages https://github.com/dlr-amr/adaptex.git
+            git remote add pages https://github.com/DLR-AMR/adaptex.git
             ghp-import -r pages -m "[skip ci] Update Site" -p -n -f published
 
 
