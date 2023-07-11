@@ -145,9 +145,12 @@
 					<!-- </h1> -->
 				</div> <!-- /.navbar-header -->
 
+
 				<nav class="collapse navbar-collapse">
 					<!-- Main navigation -->
 					<ul id="mainNavigation" class="main-mav nav navbar-nav pull-right">
+						<li><a {% if page_name != "index" %}class="not-in-home"{% endif %}class="active" href="{{ SITEURL }}/index.html">Home</a>
+						</li>
 
 						{% for title, link in MENUITEMS %}
             			<li><a class="not-in-home" href="{{ link }}">{{ title }}</a></li>
