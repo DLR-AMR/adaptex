@@ -12,7 +12,7 @@ from pelicanconf import *
 
 OUTPUT_PATH = 'published/'
 
-SITEURL = 'https://dlr-amr.github.io/t8code'
+SITEURL = 'https://dlr-amr.github.io/adaptex'
 RELATIVE_URLS = False
 
 #FEED_ALL_ATOM = 'feeds/all.atom.xml'
