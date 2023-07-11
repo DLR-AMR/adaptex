@@ -1,5 +1,3 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/sandro-elsweijer/padme-am-website/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/sandro-elsweijer/padme-am-website/tree/main)
-
 # Website for ADAPTEX
 
 Website and announcements for the ADAPTEX project.
