@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Rheinische Friedrich-Wilhelms-Universität Bonn'
-SITENAME = u'PADME-AM'
+AUTHOR = u'Autor'
+SITENAME = u'ADAPTEX'
 SITEURL = ''
-SITE_SUMMARY = 'PADME-AM - Partition der Eins Methoden für Additive Manufacturing'
+SITE_SUMMARY = 'ADAPTEX'
 
 PATH = 'content'
 

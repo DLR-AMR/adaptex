@@ -158,7 +158,7 @@
  
         				{% if DISPLAY_PAGES_ON_MENU %}
           					{% for p in pages %}
-            					<li{% if p == page %} class="active"{% endif %}><a class="not-in-home" href="{{ SITEURL }}/pages/{{ p.url }}">{{ p.title }}</a></li>
+            					<li{% if p == page %} class="active"{% endif %}><a class="not-in-home" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
           					{% endfor %}
         				{% else %}
          					{% if DISPLAY_CATEGORIES_ON_MENU %}
@@ -184,7 +184,7 @@
 		<div class="social-btn footer-social text-center">
 			<!--<a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>-->
 			<!--<a href="https://www.youtube.com" class="youtube"><i class="fa fa-youtube"></i></a>-->
-			<a href="https://github.com/DLR-AMR/t8code" class="github"><i class="fa fa-github"></i></a>
+			<a href="https://github.com/DLR-AMR/adaptex" class="github"><i class="fa fa-github"></i></a>
 		</div>
 
 
