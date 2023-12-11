@@ -152,6 +152,7 @@
 						<li><a {% if page_name != "index" %}class="not-in-home"{% endif %}class="active" href="{{ SITEURL }}/index.html">Home</a>
 						</li>
 
+						<li><a {% if page_name != "index" %}class="not-in-home"{% endif %} href="{{ SITEURL }}/#news">News</a></li>
 						{% for title, link in MENUITEMS %}
             			<li><a class="not-in-home" href="{{ link }}">{{ title }}</a></li>
         				{% endfor %}
