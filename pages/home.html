@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<!-- TITLE OF SITE -->
+	<title>Home | ADAPTEX</title>
+
+
+	
+	<!-- META DATA -->
+    <meta name="description" content="ADAPTEX"/>
+ 
+	<meta name="keywords" content="t8code, adaptive mesh refinement, amr, dlr, hpc, adaptive meshes, exascale, simulation, cpp, numerical, finite volume, discontinuous galerkin, Open Source">
+	<meta name="author" content="Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR)">
+
+	
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+ 
+   <!-- =========================
+      FAV AND TOUCH ICONS  
+    ============================== -->
+
+	<!-- ****** faviconit.com Favicons ****** -->
+	<!--<link rel="shortcut icon" href="https://dlr-amr.github.io/adaptex/theme/images/icon/TiGL.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-16.png">
+	<link rel="apple-touch-icon" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-180.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+	<meta name="msapplication-TileImage" content="https://dlr-amr.github.io/adaptex/theme/images/icon/Icon_TIGL-144.png">
+	<meta name="msapplication-config" content="https://dlr-amr.github.io/adaptex/theme/browserconfig.xml">-->
+	<!-- ****** faviconit.com Favicons ****** -->
+
+    <!-- =========================
+       STYLESHEETS 
+    ============================== -->
+    <!-- PRELOADER -->
+    <link rel="stylesheet" href="https://dlr-amr.github.io/adaptex/theme/css/preloader.css">
+	
+	<!-- Bootstrap v3.3.4 -->
+	<link href="https://dlr-amr.github.io/adaptex/theme/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- icon fonts Font Awesome 4.3.0 -->
+	<link href="https://dlr-amr.github.io/adaptex/theme/css/font-awesome.min.css" rel="stylesheet"> 
+	<!-- code highlighting from pygments -->
+	<link href="https://dlr-amr.github.io/adaptex/theme/css/pygments.css" rel="stylesheet"> 
+	<!-- Plugins  -->
+	<link href="https://dlr-amr.github.io/adaptex/theme/css/jquery.fs.boxer.css" rel="stylesheet" /> 
+	<link rel="stylesheet" href="https://dlr-amr.github.io/adaptex/theme/css/owl.carousel.css"> 
+	
+	<!-- Import Custom Styles -->
+	<link href="https://dlr-amr.github.io/adaptex/theme/css/style.css" rel="stylesheet"> 
+	
+</head>
+
+
+<body class="">
+	<!-- Pre Loader -->
+	<div class="pre-loader">
+		<div class="spinner"></div>
+	</div>
+	<span id="page-top"></span>
+	<!-- Main Menu -->
+	<div class="main-menu-container navbar-fixed-top-">
+		<div id="main-menu" class="navbar navbar-default" role="navigation">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- responsive navigation -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<i class="fa fa-bars"></i>
+					</button> <!-- /.navbar-toggle -->
+					<!-- Logo -->
+					<!-- <h1 class="logo"> -->
+						<a class="navbar-brand" href="https://dlr-amr.github.io/adaptex/">
+							<img height="80px" src="https://dlr-amr.github.io/adaptex/pages/images/Logo.png" alt="">
+						</a><!-- /.navbar-brand -->
+					<!-- </h1> -->
+				</div> <!-- /.navbar-header -->
+
+
+				<nav class="collapse navbar-collapse">
+					<!-- Main navigation -->
+					<ul id="mainNavigation" class="main-mav nav navbar-nav pull-right">
+						<li><a class="not-in-home"class="active" href="https://dlr-amr.github.io/adaptex/index.html">Home</a>
+						</li>
+
+						<li><a class="not-in-home" href="https://dlr-amr.github.io/adaptex/#news">News</a></li>
+ 
+            					<li><a class="not-in-home" href="https://dlr-amr.github.io/adaptex/pages/participants.html">Participants</a></li>
+            					<li><a class="not-in-home" href="https://dlr-amr.github.io/adaptex/pages/contact.html">Contact</a></li>
+   
+					</ul> <!-- /#mainNavigation -->
+				</nav> <!-- /.navbar-collapse  -->
+			</div> <!-- /.container -->
+		</div><!-- /#main-menu -->
+	</div><!-- /.main-menu-container -->
+	<!-- Main Menu End -->
+
+<section id="content">
+
+	<div class="page-name background-bg page-name-bg">
+		<div class="overlay">
+			<div class="container">
+				<h2 class="page-title m0">
+					Home
+				</h2>
+				<div class="page-location">
+					<a href="https://dlr-amr.github.io/adaptex">Home</a> <span> Home </span>
+				</div>
+			</div><!-- /.container -->
+		</div><!-- /.overlay -->
+	</div><!-- /.page-name -->
+
+
+
+	<section id="team"> 
+		<div id="contents"> 
+			<div class="container section-padding"> 
+				
+
+        <section id="success-story">		
+			<div class="success-story background-bg"> 
+				<div class="overlay subsection-padding"> 
+								<h2 class="title">
+									ADAPTEX
+								</h2>
+								
+								<img src="images/home/ADAPTEX.png" alt="project overview">
+								<a href="images/home/ADAPTEX.png" class="boxer"><span class="center"><br>Fig: Software components and their dependency and connection to data centers and user communities.<br><br><br></span></a>
+								
+								<p> 
+									The upcoming exascale computer architectures open up new possibilities for detailed process descriptions in Earth system models.
+									With increasing computer power the requirements for algorithms, software quality and scalability also grow.
+									The numerical solution of the equations on a uniformly high-resolution grid breaks the limits of the largest available computers, 
+									e.g. currently for climate-chemistry simulations with horizontal scales less than 1km.
+									Since the information content of many model variables strongly depends on local and 
+									regional processes, time-varying (dynamic) adaptive meshes can support a similar accuracy as a static grid with
+									significantly lower computational costs and storage requirements.
+									In addition, the efficient use of current petascale and future exascale computers requires a heterogeneous approach that takes 
+									advantage of massively parallel and power-efficient GPUs.
+								 </p>
+								 
+								 <p>
+									In ADAPTEX (ADAPtive Earth system modelling with strongly reduced computation time for EXascale-supercomputers) we develop a generally usable open source software framework for exascale-capable 
+									flow simulations (CFD) for applications in Earth system modeling on dynamic adaptive meshes.
+									We achieve this by merging existing, individually specialized HPC software libraries (Trixi.jl, t8code and Multiwave) 
+									<!-- TODO: Links to Trixi and t8code, What is the correct name for Multiwave? also add Link to it -->									
+									and expand them to heterogeneous computer architectures of 
+									the exascale performance class.
+									ADAPTEX will increase the scalability of current and future CFD applications, the modeled 
+									spatial resolution and the accuracy, while also increasing the resource efficiency.
+									The developed technologies will be implemented directly in a commercial flood simulation code (HYDRO-AS), in a global chemistry-climate model (MESSy), 
+									and atmospheric Lagrangian transport simulations (MPTRAC), as well as a shallow water simulation tool for overland flow (SERGHEI-SWE). 
+									<!-- TODO: add links to software -->
+									Their combined performance will be demonstrated on Tier-0 high-performance computers.
+								</p>
+
+								 <p> 
+									We achieve these goals by combining 
+									(a) highly efficient and extreme scalable methods of tree-based dynamic adaptive mesh management (AMR) for general element shapes, 
+									(b) extremely scalable modern Discontinuous Galerkin (DG) methods for solving compressible viscous gas flows, as well as 
+									(c) multiscale-based adaptive strategies and extensions of these technologies to heterogeneous computer architectures.
+								 </p>
+								 
+								  <p>
+									ADAPTEX is funded by German Federal Ministry of Education and Research (BMBF) within the SCALEXA Initiative.
+									The involved project participants are DLR-SC (Software Technology), DLR-PA (Atmospheric Physics), Jülich Supercomputing Center,
+									University of Cologne (Gregor Gassner), RWTH Aachen (Siegfried Müller), Hydrotec GmbH.
+									(Associated: Michael Schlottke-Lakemper (RWTH Aachen))
+
+								 </p>
+
+		</section><!-- /#success-story -->
+
+    
+			</div><!-- /.container -->
+		</div>
+	</section><!-- /#team -->
+
+
+	
+
+
+</section><!-- /#content -->
+
+    <div class="footer-area ">
+
+	<footer class="section-padding">
+		<div class="social-btn footer-social text-center">
+			<!--<a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>-->
+			<!--<a href="https://www.youtube.com" class="youtube"><i class="fa fa-youtube"></i></a>-->
+			<a href="https://github.com/DLR-AMR/adaptex" class="github"><i class="fa fa-github"></i></a>
+		</div>
+
+
+		<div class="site-info text-center">
+			 &copy; 2023 <a href="http://www.DLR.de">Deutsches Zentrum für Luft- und Raumfahrt e.V.</a>
+
+                	&nbsp;&sdot;&nbsp;<a href="http://www.dlr.de/sc">Institute for Software Technology</a></li>
+                	&nbsp;&sdot;&nbsp;<a href="https://dlr-amr.github.io/adaptex/pages/imprint.html">Imprint</a></li>
+                	&nbsp;&sdot;&nbsp;<a href="https://dlr-amr.github.io/adaptex/pages/privacy.html">Privacy</a></li>
+                	&nbsp;&sdot;&nbsp;<a href="https://dlr-amr.github.io/adaptex/pages/terms-of-use.html">Terms of use</a></li>
+                	&nbsp;&sdot;&nbsp;<a href="https://dlr-amr.github.io/adaptex/pages/accessibility.html">Accessibility</a></li>
+
+		</div>
+
+		<div id="go-top-top">
+			  <span><i class="fa fa-chevron-up"></i></span>
+		</div>
+	</footer>
+
+	</div><!-- /footer-area -->
+
+	<!-- Include modernizr-2.8.0.min.js -->
+	<script src="https://dlr-amr.github.io/adaptex/theme/js/modernizr.js"></script>
+
+	<!-- Include jquery.min.js plugin -->
+	<script src="https://dlr-amr.github.io/adaptex/theme/js/jquery-2.1.0.min.js"></script>
+	<script src="https://dlr-amr.github.io/adaptex/theme/js/plugins.js"></script>
+	<script src="https://dlr-amr.github.io/adaptex/theme/js/onePage-nav.js"></script>
+	<script src="https://dlr-amr.github.io/adaptex/theme/js/jquery.ajaxchimp.min.js"></script> 
+	<script src="https://dlr-amr.github.io/adaptex/theme/js/custom.js"></script>
+
+	<script>
+	(function($) {
+		"use strict";
+		
+	        $(window).on("load",function(e){
+	        	// Main menu
+	        	$('#main-menu #mainNavigation').onePageNav({
+	        		currentClass: 'active',
+	        		changeHash: false,
+	        		scrollSpeed: 750,
+	        		scrollThreshold: 0.5,
+	        		scrollOffset: 84,
+	        		filter: ':not(.sub-menu a, .not-in-home, .donate)',
+	        		easing: 'swing'
+	        	});  
+	        });
+		$(window).on('scroll', function (){ 
+			if ($(window).scrollTop() >$(window).height()-110){
+				$('#main-menu').addClass('navbar-fixed-top'); 
+			} else {
+				$('#main-menu').removeClass('navbar-fixed-top'); 
+			} 
+		});
+	 })(jQuery);
+	</script>
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-134418253-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+</body>
+</html>
